@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	margin: 0rem 0rem -1rem 0rem;
+	padding: 0rem 0rem 0rem 1rem;
+	color: white;
+	font-size: 2em;
+}
+
+a {
+	color: red;
+}
+
+
+/*** HEADER ***/
+header {
+	background-color: black;
+}
+
+.booking-header {
+	text-align: right;
+	padding: 1rem 1rem 0rem 1rem;
+}
+
+.tagline {
+	padding: 0rem 0rem 0rem 1rem;
+	font-weight: lighter;
+	color: gray;
+}
+
+.header-navbar {
+	background-color: gray;
+}
+
+.header-navbar ul {
+		list-style-type: none;
+}
+
+.header-navbar li {
+	display: inline-block;
+	width: 18%;
+}
+
+.header-navbar a {
+	color: purple;
+	font-weight: bold;
+}
+
+/******* ARTICLES *******/
+
+.stories {
+	max-width: 70%;
+	float: left;
+	max-height: auto;
+	height: auto;
+}
+
+.testimonial p {
+	font-style: italic;
+}
+
+.sidebar {
+	max-width: 30%;
+	border: 2px solid black;
+	float: right;
+	max-height: auto;
+	height: auto;
+}
+
+.sidebar img {
+	max-width: 100%;
+	max-height: 100%
+	width: auto;
+	height: auto;
+}
+
+/******* FOOTER *******/
+
+.footer {
+
+}
